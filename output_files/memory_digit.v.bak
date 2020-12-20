@@ -1,0 +1,34 @@
+// push current values of digits to registers
+module memory_digit(
+input flag_save,						// flag to save
+input [3:0] digit1,					// right digit // ones
+input [3:0] digit2,					// tens
+input [3:0] digit3,					// hundreds
+input [3:0] digit4,					// thousands
+input [3:0] digit5,					// tens of thousands
+input [3:0] digit6,					//	hundreds of thousands
+input [3:0] digit7,					// millions
+input [3:0] digit8,					// left digit	// tens of millions
+output reg [3:0] digit1save,					// right digit // ones
+output reg [3:0] digit2save,					// tens
+output reg [3:0] digit3save,					// hundreds
+output reg [3:0] digit4save,					// thousands
+output reg [3:0] digit5save,					// tens of thousands
+output reg [3:0] digit6save,					//	hundreds of thousands
+output reg [3:0] digit7save,					// millions
+output reg [3:0] digit8save					// left digit	// tens of millions
+);
+
+always@ (flag_save)
+begin
+	digit1save = digit1;
+	digit2save = digit2;
+	digit3save = digit3;
+	digit4save = digit4;
+	digit5save = digit5;
+	digit6save = digit6;
+	digit7save = digit7;
+	digit8save = digit8;	
+end
+
+endmodule

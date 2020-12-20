@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "anode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "anode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "anode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "anode[3]",
+					"strict" : false
+				},
+				{
+					"name" : "anode[4]",
+					"strict" : false
+				},
+				{
+					"name" : "anode[5]",
+					"strict" : false
+				},
+				{
+					"name" : "anode[6]",
+					"strict" : false
+				},
+				{
+					"name" : "anode[7]",
+					"strict" : false
+				},
+				{
+					"name" : "cathode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cathode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cathode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cathode[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cathode[4]",
+					"strict" : false
+				},
+				{
+					"name" : "cathode[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cathode[6]",
+					"strict" : false
+				},
+				{
+					"name" : "cathode[7]",
+					"strict" : false
+				},
+				{
+					"name" : "lights[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lights[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lights[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lights[3]",
+					"strict" : false
+				},
+				{
+					"name" : "lights[4]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "button_next",
+					"strict" : false
+				},
+				{
+					"name" : "button_increase",
+					"strict" : false
+				},
+				{
+					"name" : "button_left",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

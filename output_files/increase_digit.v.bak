@@ -1,0 +1,6 @@
+module increase_digit(
+input button_increase,
+input [3:0]
+);
+
+endmodule

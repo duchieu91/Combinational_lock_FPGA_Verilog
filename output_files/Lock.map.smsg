@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at data_saver.v(32): always construct contains both blocking and non-blocking assignments File: C:/P2P/Documents/code/Quartus Prime Light/ZamokV3FPGAProject/data_saver.v Line: 32

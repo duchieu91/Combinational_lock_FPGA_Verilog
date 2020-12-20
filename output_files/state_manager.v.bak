@@ -1,0 +1,14 @@
+module state_manager(
+input button_right,
+input button_increase
+);
+
+reg [2:0] state = 'd0;
+
+always@ (*)
+begin
+	case(state)
+		
+end
+
+endmodule

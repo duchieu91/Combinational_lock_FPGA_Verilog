@@ -1,0 +1,8 @@
+	timescale lns / lps
+
+module bcd_control(
+
+);
+
+
+endmodule

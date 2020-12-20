@@ -1,0 +1,101 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 11:13:03  December 16, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Lock_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6E22C8
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:13:02  DECEMBER 16, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name VERILOG_FILE testbench.v
+set_global_assignment -name VERILOG_FILE top.v
+set_global_assignment -name VERILOG_FILE bcd_control.v
+set_global_assignment -name VERILOG_FILE refresh_counter.v
+set_global_assignment -name VERILOG_FILE anode_control.v
+set_global_assignment -name VERILOG_FILE clock_divider.v
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name VERILOG_FILE bcd_to_cathodes.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_58 -to switch[0]
+set_location_assignment PIN_59 -to switch[1]
+set_location_assignment PIN_60 -to switch[2]
+set_location_assignment PIN_64 -to switch[3]
+set_location_assignment PIN_65 -to switch[4]
+set_location_assignment PIN_66 -to switch[5]
+set_location_assignment PIN_67 -to switch[6]
+set_location_assignment PIN_68 -to switch[7]
+set_location_assignment PIN_23 -to clk
+set_location_assignment PIN_127 -to cathode[0]
+set_location_assignment PIN_126 -to cathode[1]
+set_location_assignment PIN_125 -to cathode[2]
+set_location_assignment PIN_124 -to cathode[3]
+set_location_assignment PIN_121 -to cathode[4]
+set_location_assignment PIN_120 -to cathode[5]
+set_location_assignment PIN_119 -to cathode[6]
+set_location_assignment PIN_115 -to cathode[7]
+set_location_assignment PIN_128 -to anode[0]
+set_location_assignment PIN_129 -to anode[1]
+set_location_assignment PIN_132 -to anode[2]
+set_location_assignment PIN_133 -to anode[3]
+set_location_assignment PIN_135 -to anode[4]
+set_location_assignment PIN_136 -to anode[5]
+set_location_assignment PIN_137 -to anode[6]
+set_location_assignment PIN_138 -to anode[7]
+set_global_assignment -name VERILOG_FILE output_files/increase_digit.v
+set_location_assignment PIN_86 -to button_increase
+set_global_assignment -name VERILOG_FILE shift_anode.v
+set_global_assignment -name VERILOG_FILE output_files/state_manager.v
+set_location_assignment PIN_91 -to button_next
+set_location_assignment PIN_87 -to button_left
+set_location_assignment PIN_90 -to button_next_alt
+set_global_assignment -name VERILOG_FILE show_manager.v
+set_global_assignment -name VERILOG_FILE data_saver.v
+set_global_assignment -name VERILOG_FILE output_files/state_indicator.v
+set_location_assignment PIN_73 -to lights[0]
+set_location_assignment PIN_83 -to lights[1]
+set_location_assignment PIN_84 -to lights[2]
+set_location_assignment PIN_76 -to lights[3]
+set_location_assignment PIN_70 -to lights[4]
+set_global_assignment -name VERILOG_FILE button_debouncer.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

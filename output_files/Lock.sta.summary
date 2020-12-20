@@ -1,0 +1,221 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'button_debouncer:button_debouncer_button_next|sw_down_o'
+Slack : -7.152
+TNS   : -19.003
+
+Type  : Slow 1200mV 85C Model Setup 'button_debouncer:button_debouncer_button_increase|sw_down_o'
+Slack : -5.295
+TNS   : -462.666
+
+Type  : Slow 1200mV 85C Model Setup 'state_manager:comb_4|state[0]'
+Slack : -4.879
+TNS   : -218.205
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -4.377
+TNS   : -161.550
+
+Type  : Slow 1200mV 85C Model Setup 'button_debouncer:button_debouncer_button_left|sw_down_o'
+Slack : -2.673
+TNS   : -15.166
+
+Type  : Slow 1200mV 85C Model Setup 'clock_divider:refreshclock_generator|divided_clk'
+Slack : -0.312
+TNS   : -0.325
+
+Type  : Slow 1200mV 85C Model Hold 'state_manager:comb_4|state[0]'
+Slack : 0.104
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'button_debouncer:button_debouncer_button_left|sw_down_o'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_divider:refreshclock_generator|divided_clk'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'button_debouncer:button_debouncer_button_increase|sw_down_o'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'button_debouncer:button_debouncer_button_next|sw_down_o'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -141.291
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'button_debouncer:button_debouncer_button_increase|sw_down_o'
+Slack : -1.487
+TNS   : -142.752
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'button_debouncer:button_debouncer_button_left|sw_down_o'
+Slack : -1.487
+TNS   : -13.383
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'button_debouncer:button_debouncer_button_next|sw_down_o'
+Slack : -1.487
+TNS   : -4.461
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_divider:refreshclock_generator|divided_clk'
+Slack : -1.487
+TNS   : -4.461
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'state_manager:comb_4|state[0]'
+Slack : 0.272
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'button_debouncer:button_debouncer_button_next|sw_down_o'
+Slack : -6.610
+TNS   : -17.412
+
+Type  : Slow 1200mV 0C Model Setup 'button_debouncer:button_debouncer_button_increase|sw_down_o'
+Slack : -4.785
+TNS   : -412.089
+
+Type  : Slow 1200mV 0C Model Setup 'state_manager:comb_4|state[0]'
+Slack : -4.649
+TNS   : -214.336
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.094
+TNS   : -138.074
+
+Type  : Slow 1200mV 0C Model Setup 'button_debouncer:button_debouncer_button_left|sw_down_o'
+Slack : -2.506
+TNS   : -14.040
+
+Type  : Slow 1200mV 0C Model Setup 'clock_divider:refreshclock_generator|divided_clk'
+Slack : -0.183
+TNS   : -0.183
+
+Type  : Slow 1200mV 0C Model Hold 'state_manager:comb_4|state[0]'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_divider:refreshclock_generator|divided_clk'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'button_debouncer:button_debouncer_button_left|sw_down_o'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'button_debouncer:button_debouncer_button_increase|sw_down_o'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'button_debouncer:button_debouncer_button_next|sw_down_o'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -141.291
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'button_debouncer:button_debouncer_button_increase|sw_down_o'
+Slack : -1.487
+TNS   : -142.752
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'button_debouncer:button_debouncer_button_left|sw_down_o'
+Slack : -1.487
+TNS   : -13.383
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'button_debouncer:button_debouncer_button_next|sw_down_o'
+Slack : -1.487
+TNS   : -4.461
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_divider:refreshclock_generator|divided_clk'
+Slack : -1.487
+TNS   : -4.461
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'state_manager:comb_4|state[0]'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'button_debouncer:button_debouncer_button_next|sw_down_o'
+Slack : -2.680
+TNS   : -7.045
+
+Type  : Fast 1200mV 0C Model Setup 'state_manager:comb_4|state[0]'
+Slack : -1.885
+TNS   : -55.464
+
+Type  : Fast 1200mV 0C Model Setup 'button_debouncer:button_debouncer_button_increase|sw_down_o'
+Slack : -1.749
+TNS   : -144.729
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.302
+TNS   : -21.178
+
+Type  : Fast 1200mV 0C Model Setup 'button_debouncer:button_debouncer_button_left|sw_down_o'
+Slack : -0.587
+TNS   : -3.033
+
+Type  : Fast 1200mV 0C Model Setup 'clock_divider:refreshclock_generator|divided_clk'
+Slack : 0.428
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'state_manager:comb_4|state[0]'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'button_debouncer:button_debouncer_button_left|sw_down_o'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_divider:refreshclock_generator|divided_clk'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'button_debouncer:button_debouncer_button_increase|sw_down_o'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'button_debouncer:button_debouncer_button_next|sw_down_o'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -102.059
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'button_debouncer:button_debouncer_button_increase|sw_down_o'
+Slack : -1.000
+TNS   : -96.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'button_debouncer:button_debouncer_button_left|sw_down_o'
+Slack : -1.000
+TNS   : -9.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'button_debouncer:button_debouncer_button_next|sw_down_o'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_divider:refreshclock_generator|divided_clk'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'state_manager:comb_4|state[0]'
+Slack : 0.299
+TNS   : 0.000
+
+------------------------------------------------------------
