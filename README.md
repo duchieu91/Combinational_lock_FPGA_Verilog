@@ -1,4 +1,4 @@
-# Combinational_lock_FPGA_Verilog
+# Combinational lock with FPGA and Verilog
  FPGA-based lock for 8-digit number. 
  Lock works in the same way as bicycle lock, it is 8-digit password. 
  Program has user interface: 8-digit LED display, indicators for state of the program. 
